@@ -1,0 +1,282 @@
+body {
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.contentRows {
+    padding: 1vw;
+    width: 50%;
+}
+
+.contentStyle {
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    transition: background-position 0.5s;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, rgba(63, 80, 102, 0) 50%, rgb(63, 80, 102) 50%);
+}
+
+.contentStyle .initialContent,
+.contentStyle .hoverContent {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    transition: transform 0.5s;
+}
+
+.contentStyle .hoverContent {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.contentStyle:hover .initialContent {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.contentStyle:hover .hoverContent {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.contentStyle:hover {
+    background-position: -100% 0;
+}
+
+.contentStyle h1 {
+    font-size: 4vw;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contentStyle h2 {
+    font-size: 2.5vw;
+    font-weight: 700;
+    line-height: 2.5vw;
+    margin: 0;
+}
+
+.contentStyle h3 {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.contentStyle h4 {
+    font-size: 1vw;
+}
+
+#logoTaskBar {
+    height: 2.8vw;
+}
+
+#taskBar {
+    display: flex;
+    position: fixed;
+    user-select: none;
+    background: none;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 3vw;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#sloganTaskBar {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+#SloganBox {
+    margin: 0;
+    padding-left: 1vw;
+    height: 3vw;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topbar-section {
+    border-radius: 0.3vw;
+    margin: 0;
+    height: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    font-weight: 600;
+    font-size: 1vw;
+    transition: background-position 0.5s;
+    background-size: 200% 100%;
+    background-image: linear-gradient(to right, rgba(63, 80, 102, 0) 50%, rgb(63, 80, 102) 50%);
+}
+
+#navButtons {
+    display: flex;
+    padding: 0.5vw;
+    height: 2vw;
+}
+
+#centerTabs {
+    margin-left: auto;
+    height: 3vw;
+}
+
+.topbar-section:hover {
+    background-position: -100% 0;
+}
+
+#homejumbo {
+    display: flex;
+    background-image: url("../images/Team.jpg");
+    z-index: 1;
+    height: 35vw;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    font-family: "Helvetica ", sans-serif;
+    text-align: center;
+}
+
+#sloganJumbo {
+    margin: auto;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 1vw;
+    background-color: rgb(8, 8, 8, 0.4);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-blend-mode: multiply;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+}
+
+#OurTeam {
+    display: flex;
+    justify-self: center;
+    width: auto;
+    height: 22vw;
+}
+
+#missionHeading {
+    color: white;
+    padding-left: 9vw;
+    padding-top: 4vw;
+    text-shadow: 0.15vw 0.15vw rgb(78, 78, 78);
+}
+
+#mission {
+    color: white;
+    padding-left: 9vw;
+    padding-right: 1vw;
+    padding-top: 1vw;
+}
+
+#missionImageHome {
+    width: 80%;
+    /* padding-right: 5vw; */
+    /* padding: 1vw;
+    margin-top: 0.7vw;
+    margin-left: 1vw; */
+}
+
+#worldsRow {
+    padding-top: 2vw;
+    padding: 2vw;
+}
+
+#winningAliance {
+    width: 60%;
+}
+
+#worldChamps {
+    text-align: center;
+    margin: auto;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+    background-blend-mode: multiply;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+}
+
+#worldsRecap {
+    height: 16vw;
+    width: 30vw;
+    margin-left: 5vw;
+}
+
+#worldsBox {
+    display: flex;
+    height: 30vw;
+}
+
+#worldsRecapBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#worldsRecapHeading {
+    text-align: center;
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+}
+
+#RobotLink {
+    text-align: center;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    background-color: rgb(55, 59, 59);
+    width: 30vw;
+    height: 8vw;
+    border-radius: 1vw;
+    background-image: url("../images/20240405_174045.jpg");
+    opacity: 0.8;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#worldsRobotHeading {
+    padding: 0.5vw;
+    padding-top: 1vw;
+    font-size: 1.65vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.2vw 0.2vw rgb(255, 255, 255);
+}
+
+#linkToRobotPage {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5vw;
+}
