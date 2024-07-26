@@ -2,7 +2,7 @@
 
 <head>
 
-	<link rel="icon" href="images/txpand_logo-removebg-preview.png">
+	<link rel="icon" href="images/Texpand_Logo.png">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -16,6 +16,7 @@
 		crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="Styles.css/styles.css">
+	<link rel="stylesheet" href="Styles.css/home.css">
 
 </head>
 
@@ -69,49 +70,67 @@
 			<p id="sloganJumbo">Expanding STEM skills through robotics</p>
 		</div>
 
-		<!-- <div style="display: flex;">
-			<div class="contentRows">
-				<div id="OurTeam" class="contentStyle">
-					<div class="initialContent">
-						<img id="missionImageHome" src="images/IMG_20230901_120610.jpg" alt="">
-					</div>
-					<div class="hoverContent">
-						<h1 id="missionHeading">Our Mission</h1>
-						<h2 id="mission">"Expanding STEM skills through Robotics"</h2>
-					</div>
-				</div>
-			</div>
-
-			<div class="contentRows">
-				<div id="OurTeam" class="contentStyle">
-					<div style="width: 50%;">
-						<img id="missionImageHome" src="images/IMG_20230901_120610.jpg" alt="">
-					</div>
-					<div style="width: 50%;">
-						<h1 id="missionHeading">Our Mission</h1>
-						<h2 id="mission">"Expanding STEM skills through Robotics"</h2>
-					</div>
-				</div>
-			</div>
-		</div> -->
-
 		<div id="worldsRow">
-			<p id="worldChamps">2024 FTC World Champions</p>
+			<h1 class="homeHeadings">2024 FTC World Champions</h1>
 			<div id="worldsBox">
 				<img id="winningAliance" src="images/IMG_5896 (2).JPG" alt="">
 				<div id="worldsRecapBox">
-					<h1 id="worldsRecapHeading">Worlds Recap</h1>
+					<h2 class="homeSubHeadings">Worlds Recap</h2>
 					<Iframe id="worldsRecap"
 						src="https://www.youtube.com/embed/aexXDp39FVc?si=JzZNdhvqB5ro3m_d"></Iframe>
 					<div id="RobotLink">
-						<h2 id="worldsRobotHeading">Centerstage Worlds Robot "Maxbot" </h2>
+						<h3 id="worldsRobotHeading">Centerstage Worlds Robot "Maxbot"</h3>
 						<div id="linkToRobotPage">Check out the robot!</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
+		<div id="ourMissionRow" style="padding-bottom: 20vw;">
+			<div id="MissionBox" style="display: flex;">
+				<div style="width: 50%;">
+					<h1 class="homeHeadings" style="text-align: left;">Our Mission</h1>
+					<h2 id="OurMission">Our mission is to is
+						grow and
+						expand as people and as
+						a team, while bringing
+						others
+						along with us. We are passionate about being part of creating interest in STEM skills in South
+						Africa, and bringing opportunities and hope to students that don’t have easy access to FTC and
+						robotics opportunities.</h2>
+				</div>
+				<div style="width: 50%;">
+					<h2 id="NotJustRoboticsHeading">FTC is more than just Robotics</h2>
+					<div style="display: flex;">
+						<div style="width: 50%; text-align: center;">
+							<Iframe id="notJustARobot"
+								src="https://www.youtube.com/embed/wIu57tROjoM?si=OLrnjMUpdEsA_WcH"></Iframe>
+						</div>
+						<div style="width: 50%;">
+							<div id="IgniteRobotics">
+								<h3 id="igniteHeading">For more info on the Ignite Robotics International initiative
+									visit the links
+									below</h3>
+								<div style="display: flex; width: 95%; margin-left: 2.5%;">
+									<div id="igniteWebsite" onclick="openIgniteWebsite()">
+										<h4 class="ignitelinks">Ignite Website</h4>
+									</div>
+									<div id="igniteIntro" onclick="openIntroVideo()">
+										<h4 class="ignitelinks">Intro Video</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
 	</div>
+
+	<script src="script.js"></script>
 
 	<script type="text/javascript">
 

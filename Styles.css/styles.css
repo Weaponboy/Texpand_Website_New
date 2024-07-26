@@ -4,7 +4,7 @@ body {
     overflow-x: hidden;
 }
 
-.contentRows {
+/* .contentRows {
     padding: 1vw;
     width: 50%;
 }
@@ -73,7 +73,7 @@ body {
 
 .contentStyle h4 {
     font-size: 1vw;
-}
+} */
 
 #logoTaskBar {
     height: 2.8vw;
@@ -164,119 +164,4 @@ body {
     padding-right: 1vw;
     background-blend-mode: multiply;
     text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
-}
-
-#OurTeam {
-    display: flex;
-    justify-self: center;
-    width: auto;
-    height: 22vw;
-}
-
-#missionHeading {
-    color: white;
-    padding-left: 9vw;
-    padding-top: 4vw;
-    text-shadow: 0.15vw 0.15vw rgb(78, 78, 78);
-}
-
-#mission {
-    color: white;
-    padding-left: 9vw;
-    padding-right: 1vw;
-    padding-top: 1vw;
-}
-
-#missionImageHome {
-    width: 80%;
-    /* padding-right: 5vw; */
-    /* padding: 1vw;
-    margin-top: 0.7vw;
-    margin-left: 1vw; */
-}
-
-#worldsRow {
-    padding-top: 2vw;
-    padding: 2vw;
-}
-
-#winningAliance {
-    width: 60%;
-}
-
-#worldChamps {
-    text-align: center;
-    margin: auto;
-    font-size: 3vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: 600;
-    border-radius: 1vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    padding-bottom: 1vw;
-    background-blend-mode: multiply;
-    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
-}
-
-#worldsRecap {
-    height: 16vw;
-    width: 30vw;
-    margin-left: 5vw;
-}
-
-#worldsBox {
-    display: flex;
-    height: 30vw;
-}
-
-#worldsRecapBox {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-#worldsRecapHeading {
-    text-align: center;
-    font-size: 2.5vw;
-    padding-bottom: 1vw;
-    font-weight: 600;
-    margin: 0;
-    color: white;
-    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
-}
-
-#RobotLink {
-    text-align: center;
-    margin-left: 5vw;
-    margin-top: 2vw;
-    background-color: rgb(55, 59, 59);
-    width: 30vw;
-    height: 8vw;
-    border-radius: 1vw;
-    background-image: url("../images/20240405_174045.jpg");
-    opacity: 0.8;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
-}
-
-#worldsRobotHeading {
-    padding: 0.5vw;
-    padding-top: 1vw;
-    font-size: 1.65vw;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    text-shadow: 0.2vw 0.2vw rgb(255, 255, 255);
-}
-
-#linkToRobotPage {
-    color: white;
-    text-align: center;
-    background-color: black;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 0.5vw;
 }

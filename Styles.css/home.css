@@ -1,0 +1,178 @@
+#worldsRow {
+    padding-top: 2vw;
+    padding: 2vw;
+}
+
+#winningAliance {
+    margin-top: 1vw;
+    width: 60%;
+}
+
+.homeHeadings {
+    text-align: center;
+    margin: auto;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0vw;
+    background-blend-mode: multiply;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+}
+
+#worldsRecap {
+    height: 16vw;
+    width: 30vw;
+    margin-left: 5vw;
+}
+
+#worldsBox {
+    display: flex;
+    height: 30vw;
+}
+
+#worldsRecapBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.homeSubHeadings {
+    text-align: center;
+    font-size: 2.5vw;
+    padding-bottom: 1vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+}
+
+#RobotLink {
+    text-align: center;
+    margin-left: 5vw;
+    margin-top: 2vw;
+    background-color: rgb(55, 59, 59);
+    width: 30vw;
+    height: 8vw;
+    border-radius: 1vw;
+    background-image: url("../images/20240405_174045.jpg");
+    opacity: 0.8;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#IgniteRobotics {
+    text-align: center;
+    background-color: rgb(63, 80, 102);
+    width: 80%;
+    height: 13vw;
+    margin: auto;
+    margin-top: 0.6vw;
+    border-radius: 1vw;
+    opacity: 0.8;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#worldsRobotHeading {
+    padding: 0.5vw;
+    padding-top: 1vw;
+    font-size: 1.65vw;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.2vw 0.2vw rgb(255, 255, 255);
+}
+
+#linkToRobotPage {
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5vw;
+}
+
+#ourMissionRow {
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#OurMission {
+    text-align: center;
+    font-size: 1.8vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+    text-align: left;
+    padding-left: 1vw;
+    width: 95%
+}
+
+#NotJustRoboticsHeading {
+    text-align: center;
+    font-size: 1.8vw;
+    padding-top: 0.1vw;
+    padding-bottom: 1vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+}
+
+#notJustARobot {
+    margin-top: 0.95vw;
+    height: 12.5vw;
+    width: 95%;
+}
+
+#igniteHeading {
+    text-align: center;
+    font-size: 1.6vw;
+    padding: 0.4vw;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+    text-shadow: 0.15vw 0.15vw 0.1vw rgb(0, 0, 0);
+}
+
+#igniteWebsite {
+    user-select: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5vw;
+}
+
+#igniteIntro {
+    user-select: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5vw;
+    padding-bottom: 0.2vw;
+    font-size: 1.5vw;
+    line-height: normal;
+}
+
+.ignitelinks {
+    list-style: none;
+    font-size: 1.4vw;
+    padding: 0.1vw;
+    margin: 0;
+}
