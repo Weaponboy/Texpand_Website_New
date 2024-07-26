@@ -118,21 +118,12 @@
     width: 95%
 }
 
-#NotJustRoboticsHeading {
-    text-align: center;
-    font-size: 1.8vw;
-    padding-top: 0.1vw;
-    padding-bottom: 1vw;
-    font-weight: 600;
-    margin: 0;
-    color: white;
-    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
-}
-
 #notJustARobot {
-    margin-top: 0.95vw;
-    height: 12.5vw;
-    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    height: 18vw;
+    width: 90%;
 }
 
 #igniteHeading {
@@ -170,9 +161,94 @@
     line-height: normal;
 }
 
-.ignitelinks {
+#MissionLearnMore {
+    user-select: none;
+    text-align: center;
+    background-color: rgb(63, 80, 102);
+    width: 96.5%;
+    height: 4vw;
+    margin: auto;
+    margin-top: 0.6vw;
+    border-radius: 1vw;
+    background-image: url("../images/IMG_20240719_143535.jpg");
+    opacity: 0.8;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#headingLearnMission {
+    padding: 0.5vw;
+    padding-top: 1vw;
+    font-size: 1.8vw;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.3vw 0.3vw 0.1vw rgb(80, 116, 139);
+}
+
+#igniteRow {
+    padding-bottom: 20vw;
+    padding-top: 2vw;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#IgniteBlock {
+
+    height: 15vw;
+    display: flex;
+    padding: 1vw;
+    background-color: rgb(63, 80, 102);
+    border-radius: 1.5vw;
+    background-image: url("../images/Ignite_Background.JPG");
+    opacity: 0.8;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+#igniteLogo {
+    height: 13vw;
+    padding-right: 2vw;
+}
+
+#infotext {
+    font-size: 1.8vw;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2vw 0.2vw 0.1vw rgb(0, 0, 0);
+}
+
+#descriptionIgnite {
+    width: 60%;
+    font-size: 1.6vw;
+    font-weight: 800;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1vw 0.1vw 0.1vw rgb(0, 0, 0);
+}
+
+.buttonStyles {
+    margin: 1vw;
+    user-select: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 20%;
+    margin-top: 2.5vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    border-radius: 0.5vw;
+    height: 4vw;
+}
+
+.igniteLinksText {
     list-style: none;
-    font-size: 1.4vw;
-    padding: 0.1vw;
+    font-size: 2vw;
+    padding-top: 0.6vw;
     margin: 0;
 }
