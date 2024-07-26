@@ -1,6 +1,27 @@
-#worldsRow {
-    padding-top: 2vw;
-    padding: 2vw;
+#homejumbo {
+    display: flex;
+    background-image: url("../images/Team.jpg");
+    z-index: 1;
+    height: 35vw;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    font-family: "Helvetica ", sans-serif;
+    text-align: center;
+}
+
+#sloganJumbo {
+    margin: auto;
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    border-radius: 1vw;
+    background-color: rgb(8, 8, 8, 0.4);
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-blend-mode: multiply;
+    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
 }
 
 #winningAliance {
@@ -8,25 +29,21 @@
     width: 60%;
 }
 
-.homeHeadings {
+#worldChampsHeading {
     text-align: center;
     margin: auto;
-    font-size: 3vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
     font-weight: 600;
     border-radius: 1vw;
     padding-left: 1vw;
     padding-right: 1vw;
-    padding-bottom: 0vw;
-    background-blend-mode: multiply;
-    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+    padding-bottom: 1vw;
 }
 
 #worldsRecap {
-    height: 16vw;
+    height: 15.5vw;
     width: 30vw;
-    margin-left: 5vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #worldsBox {
@@ -40,25 +57,23 @@
     width: 100%;
 }
 
-.homeSubHeadings {
+#worldsRecapHeading {
     text-align: center;
-    font-size: 2.5vw;
     padding-bottom: 1vw;
     font-weight: 600;
     margin: 0;
-    color: white;
-    text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
 }
 
 #RobotLink {
+    user-select: none;
     text-align: center;
-    margin-left: 5vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
     background-color: rgb(55, 59, 59);
     width: 30vw;
-    height: 8vw;
+    height: 6vw;
+    margin: auto;
     border-radius: 1vw;
-    background-image: url("../images/20240405_174045.jpg");
+    background-image: url("../images/Robot_Backgroung.jpg");
     opacity: 0.8;
     background-position-x: center;
     background-position-y: center;
@@ -80,13 +95,12 @@
 }
 
 #worldsRobotHeading {
-    padding: 0.5vw;
-    padding-top: 1vw;
-    font-size: 1.65vw;
+    padding: 0vw;
+    padding-top: 0.9vw;
+    padding-bottom: 0.4vw;
     font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    text-shadow: 0.2vw 0.2vw rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2vw 0.2vw rgb(0, 0, 0);
 }
 
 #linkToRobotPage {
@@ -96,12 +110,9 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 0.1vw;
+    padding-bottom: 0.1vw;
     border-radius: 0.5vw;
-}
-
-#ourMissionRow {
-    padding-left: 2vw;
-    padding-right: 2vw;
 }
 
 #OurMission {
@@ -114,7 +125,7 @@
     color: white;
     text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
     text-align: left;
-    padding-left: 1vw;
+    padding-left: 0.1vw;
     width: 95%
 }
 
@@ -122,8 +133,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 2vw;
-    height: 18vw;
-    width: 90%;
+    height: 16.5vw;
+    width: 82%;
 }
 
 #igniteHeading {
@@ -170,7 +181,7 @@
     margin: auto;
     margin-top: 0.6vw;
     border-radius: 1vw;
-    background-image: url("../images/IMG_20240719_143535.jpg");
+    background-image: url("../images/Learn_More_Background.jpg");
     opacity: 0.8;
     background-position-x: center;
     background-position-y: center;
@@ -179,24 +190,16 @@
 
 #headingLearnMission {
     padding: 0.5vw;
-    padding-top: 1vw;
+    padding-top: 0.7vw;
     font-size: 1.8vw;
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-    text-shadow: 0.3vw 0.3vw 0.1vw rgb(80, 116, 139);
-}
-
-#igniteRow {
-    padding-bottom: 20vw;
-    padding-top: 3.5vw;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.3vw 0.3vw 0.1vw rgb(0, 0, 0);
 }
 
 #IgniteBlock {
-    height: 15vw;
+    height: 11.5vw;
     display: flex;
     padding: 1vw;
     background-color: rgb(63, 80, 102);
@@ -209,34 +212,25 @@
 }
 
 #igniteLogo {
-    height: 13vw;
+    height: 11vw;
     padding-right: 2vw;
 }
 
-#infotext {
-    font-size: 1.8vw;
-    font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 0.2vw 0.2vw 0.1vw rgb(0, 0, 0);
-}
-
 #descriptionIgnite {
-    width: 60%;
-    font-size: 1.6vw;
-    font-weight: 800;
+    width: 55%;
+    padding-top: 1vw;
     line-height: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 0.2vw 0.2vw 0.1vw rgb(0, 0, 0);
 }
 
 .buttonStyles {
     margin: 1vw;
     user-select: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: white;
     width: 20%;
     margin-top: 2.5vw;
     margin-left: 0.5vw;
@@ -246,9 +240,10 @@
 }
 
 .igniteLinksText {
-    list-style: none;
-    font-size: 2vw;
-    font-weight: 700;
-    padding-top: 0.6vw;
+    padding-top: 0.8vw;
     margin: 0;
+}
+
+#OurMissionHeading {
+    text-align: left;
 }
