@@ -1,0 +1,485 @@
+
+@media(max-width: 900px) {
+
+    #firstAngle {
+        padding-top: 2rem;
+        padding-right: 1rem;
+        margin: 0;
+        opacity: 1;
+        width: 100%;
+        height: 80%;
+        margin-bottom: 3rem;
+        /* margin-top: 3rem; */
+        transform: translateY(0);
+        transition: opacity 2s ease-in-out;
+        background-color: #000000;
+        color: white;
+        z-index: -1;
+    }
+
+    #firstAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 106%;
+        /* margin-top: 3rem; */
+        background-color: #000000;
+        color: white;
+        transform-origin: 0% 100%;
+        transform: skewY(-2deg);
+        transform-origin: 100% 0%;
+        z-index: -1;
+
+    }
+
+    #expandImage {
+        width: 100%;
+        float: right;
+        padding-right: 10%;
+    }
+
+
+    #expandHeading {
+        font-size: 130%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 2rem;
+        justify-content: left;
+    }
+
+    #expandText {
+        font-size: 90%;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 2rem;
+        justify-content: left;
+    }
+
+
+}
+
+@media(min-width: 900px) {
+
+    #firstAngle {
+        padding-top: 4rem;
+        opacity: 1;
+        width: 100%;
+        height: 39%;
+        margin-bottom: 3rem;
+        transform: translateY(0);
+        transition: opacity 2s ease-in-out;
+        background-color: #000000;
+        color: white;
+    }
+
+
+    #firstAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 115%;
+        background-color: #000000;
+        color: white;
+        transform-origin: 0% 100%;
+        transform: skewY(-2deg);
+        transform-origin: 100% 0%;
+        z-index: -1;
+    }
+
+
+    #expandImage {
+        width: 70%;
+        float: right;
+        padding-right: 10%;
+    }
+
+    #expandHeading {
+        padding-top: 0.5rem;
+        font-size: 200%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+        padding-left: 2rem;
+    }
+
+    #expandText {
+        font-size: 140%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+        padding-left: 2rem;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    #secondAngle {
+        opacity: 1;
+        width: 100%;
+        margin: 0;
+        transform: translateY(0);
+        transition: opacity 2s ease-in-out;
+        background-color: #c6c6c6;
+        color: black;
+        /* transform: translateY(50px); */
+    }
+
+    #secondAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #c6c6c6;
+        transform: skewY(-2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    #secondAngle::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #c6c6c6;
+        transform: skewY(2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    #FLLImage {
+        width: 90%;
+        height: auto;
+        float: left;
+        padding-top: 0.5rem;
+        padding-left: 13%;
+    }
+
+    #FLLHeading {
+        padding-top: 2rem;
+        margin-top: -1rem;
+        font-size: 160%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+    #FLLText {
+        font-size: 100%;
+        padding-right: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+}
+
+@media(min-width: 900px) {
+    #secondAngle {
+        opacity: 1;
+        width: 100%;
+        transform: translateY(0);
+        transition: opacity 2s ease-in-out;
+        background-color: #c6c6c6;
+        color: black;
+        /* transform: translateY(50px); */
+    }
+
+    #secondAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #c6c6c6;
+        color: black;
+        transform: skewY(-2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    #secondAngle::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #c6c6c6;
+        color: black;
+        transform: skewY(2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    #FLLImage {
+        width: 90%;
+        height: auto;
+        float: left;
+        padding-top: 0.5rem;
+        padding-left: 13%;
+    }
+
+    #FLLHeading {
+        padding-top: 0rem;
+        margin-top: -1rem;
+        font-size: 200%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+    #FLLText {
+        font-size: 140%;
+        padding-right: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+}
+
+@media(max-width: 900px) {
+
+    #thirdAngle {
+        opacity: 1;
+        width: 100%;
+        height: 80%;
+        margin: 0;
+        margin-bottom: 5rem;
+        padding-right: 1rem;
+        transition: opacity 2s ease-in-out;
+        background-color: #000000;
+        color: white;
+        transform: translateY(0);
+    }
+
+    #thirdAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%;
+        background-color: #000000;
+        color: white;
+        transform: skewY(-2deg);
+        transform-origin: 100% 100%;
+        z-index: -1;
+    }
+
+    #thirdAngle::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 110%;
+        background-color: #000000;
+        color: white;
+        transform: skewY(2deg);
+        transform-origin: 100% 100%;
+        z-index: -1;
+    }
+
+    #intImage {
+        width: 100%;
+        height: auto;
+        float: right;
+        padding-right: 10%;
+    }
+
+    #intHeading {
+        padding-top: rem;
+        font-size: 170%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+    #intText {
+        font-size: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+
+}
+
+@media(min-width: 900px) {
+    #thirdAngle {
+        opacity: 1;
+        width: 100%;
+        height: 48%;
+        transition: opacity 2s ease-in-out;
+        background-color: #c6c6c6;
+        color: rgb(255, 255, 255);
+        transform: translateY(0);
+    }
+
+    #thirdAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        color: white;
+        transform: skewY(2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    #intImage {
+        width: 70%;
+        height: auto;
+        float: right;
+        padding-right: 10%;
+        padding-top: 9%;
+
+    }
+
+    #intHeading {
+        padding-top: 4rem;
+        font-size: 200%;
+        padding-left: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+    #intText {
+        font-size: 140%;
+        padding-left: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+}
+
+@media(max-width: 900px) {
+    #forthAngle {
+        opacity: 1;
+        width: 100%;
+        margin: 0;
+        transition: opacity 2s ease-in-out;
+        background-color: #c6c6c6;
+        color: black;
+        transform: translateY(0);
+        margin-bottom: 4rem;
+    }
+
+    #forthAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #c6c6c6;
+        color: black;
+        transform: skewY(-2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    /* #forthAngle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6b6b6b;
+    transform: skewY(2deg);
+    transform-origin: 0% 100%;
+    z-index: -1;
+} */
+
+    #connectImage {
+        width: 80%;
+        height: auto;
+        float: left;
+        padding-top: 0.5rem;
+        padding-left: 13%;
+    }
+
+    #connectHeading {
+        padding-top: 3rem;
+        margin-top: -1rem;
+        font-size: 150%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+    #connectText {
+        font-size: 100%;
+        padding-right: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+}
+
+@media(min-width: 900px) {
+    #forthAngle {
+        opacity: 1;
+        width: 100%;
+        transition: opacity 2s ease-in-out;
+        background-color: #c6c6c6;
+        color: black;
+        transform: translateY(0);
+        margin-bottom: 4rem;
+        padding-bottom: 2rem;
+    }
+
+    #forthAngle::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #c6c6c6;
+        color: black;
+        transform: skewY(-2deg);
+        transform-origin: 0% 100%;
+        z-index: -1;
+    }
+
+    /* #forthAngle::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #6b6b6b;
+    transform: skewY(2deg);
+    transform-origin: 0% 100%;
+    z-index: -1;
+} */
+
+    #connectImage {
+        width: 80%;
+        height: auto;
+        float: left;
+        padding-top: 0.5rem;
+        padding-left: 13%;
+    }
+
+    #connectHeading {
+        margin-top: -1rem;
+        font-size: 200%;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+    #connectText {
+        font-size: 140%;
+        padding-right: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: left;
+    }
+
+}

@@ -1,6 +1,6 @@
 #homejumbo {
     display: flex;
-    background-image: url("../images/Team.jpg");
+    background-image: url("../images/TeamPicture.png");
     z-index: 1;
     height: 35vw;
     background-position-x: center;
@@ -216,7 +216,7 @@
     border-style: solid;
     border-radius: 1vw;
     border-width: 0.2vw;
-    height: 11.5vw;
+    height: 13vw;
     display: flex;
     padding: 1vw;
     background-color: rgb(63, 80, 102);

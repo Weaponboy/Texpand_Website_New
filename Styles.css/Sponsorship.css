@@ -1,0 +1,123 @@
+#sponcon {
+    padding-top: 2rem;
+}
+
+
+#defHeadingPadding{
+    display: flex; /* Makes each image container a flex container */
+    justify-content: center; /* Centers the image horizontally within its container */
+    align-items: center; /* Centers the image vertically within its container */
+    text-align: center;
+}
+
+#rowToAlign{
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically within the row */
+    flex-wrap: wrap;
+}
+
+
+#defendHeading{
+    font-size: 280%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;		
+}
+
+
+#videobuff {
+    text-align: center;
+    padding-top: 0rem;
+}
+
+
+@media (max-width: 900px) {
+
+    #videobuff {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+
+#rowspacing{
+    padding-top: 2rem;
+}
+
+.defendSubHeadings{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    color: black;
+    font-weight: 700;
+}
+
+#bankDetails{
+    width: 94%;
+    margin: 2rem;
+}
+
+
+.RowVid2 {
+    text-align: center;
+    padding-bottom: 0rem;
+}
+
+.RowVid23 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+.margin1 {
+    border: rgb(255, 255, 255);
+    border-style: solid;
+    margin: 0.2rem;
+    margin-bottom: 3rem;
+    border-width: 0.4rem;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
+
+.sponsorsRow {
+    display: flex; /* Enables Flexbox */
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically within the row */
+    flex-wrap: wrap; /* Ensures elements wrap to the next row if needed */
+}
+
+.imags4 {
+    display: flex; /* Makes each image container a flex container */
+    justify-content: center; /* Centers the image horizontally within its container */
+    align-items: center; /* Centers the image vertically within its container */
+    text-align: center; /* Ensures images are visually centered */
+}
+
+.sponsors3 {
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+
+.imags4 {
+    display: flex; /* Makes each image container a flex container */
+    justify-content: center; /* Centers the image horizontally within its container */
+    align-items: center; /* Centers the image vertically within its container */
+    text-align: center; /* Ensures images are visually centered */
+}
+
+#otherOptions{
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    color: white;
+}
