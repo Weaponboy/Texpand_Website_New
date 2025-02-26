@@ -11,7 +11,7 @@
     align-items: center;
     width: 100%;
     height: 3vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 100;
 }
@@ -69,6 +69,10 @@
     display: block;
 }
 
+.test1{
+    display: block;
+}
+
 .Toggle {
     position: absolute;
     top: 2.1rem;
@@ -83,7 +87,7 @@
 }
 
 .Toggle .bar {
-    height: 5px;
+    height: 3px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
@@ -97,7 +101,7 @@
 
     .Toggle {
         position: absolute;
-        top: 2.8vh;
+        top: 1vh;
         right: 1rem;
     }
 
@@ -105,12 +109,15 @@
         display: flex;
     }
 
-    #img {
-        width: 8%;
+    #logoTaskBar {
+        height: 10vw;
     }
 
-    .topbar-section {
-        display: block;
+    #sloganTaskBar {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4vw;
+        font-weight: 600;
     }
 
     .topbar-section {
@@ -118,14 +125,50 @@
         padding: .7rem;
     }
 
-    #Test {
-        text-align: center;
+    #navButtons{
         width: 100%;
-        margin-right: 0;
+        height: 20vh;
+        text-align: center;
+        z-index: 2000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #centerTabs {
+        margin-left: 0;
+        height: 20vh;
+        width: 100%;
+    }
+
+    .topbar-section {
+        border-radius: 0.3vw;
+        margin: 0;
+        height: 2vw;
+        /* width: 100vw; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 200%;
+        font-weight: 600;
+        font-size: 3vw;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: background-position 0.5s;
+        background-size: 200% 100%;
+        background-image: linear-gradient(to right, rgba(63, 80, 102, 0) 50%, rgb(63, 80, 102) 50%);
     }
 
     .test2 {
         display: none;
     }
 
+    .test1{
+        display: none;
+    }
+
+    #SloganBox{
+        display: none;
+    }
+    
 }

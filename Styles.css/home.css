@@ -354,3 +354,137 @@
 #igniteRow {
     margin-bottom: 3vw;
 }
+
+#MissionBlock{
+    width: 60%;
+}
+
+
+@media(max-width: 1050px) {
+
+    #worldsBox {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #winningAliance {
+        margin-top: 1vw;
+        width: 100%;
+    }
+    
+    #worldsRecapBox {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    #worldsRecapHeading {
+        text-align: left;
+        padding-top: 3vw;
+        padding-bottom: 0vw;
+        font-weight: 600;
+        font-size: 120%;
+        margin: 0;
+    }
+
+    #linkToRobotPage {
+        color: white;
+        text-align: center;
+        width: 80%;
+        font-size: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0.3vw;
+        padding-bottom: 0.3vw;
+        border-radius: 0.5vw;
+        transition: background-position 0.5s;
+        background-size: 200% 100%;
+        background-image: linear-gradient(to right, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%);
+    }
+
+    #RobotLink {
+        border-style: solid;
+        border-radius: 1vw;
+        border-width: 0.2vw;
+        user-select: none;
+        text-align: center;
+        margin-top: 1vw;
+        background-color: rgb(55, 59, 59);
+        width: 80vw;
+        height: 6vw;
+        margin: auto;
+        border-radius: 1vw;
+        background-image: url("../images/Robot_Backgroung.jpg");
+        opacity: 0.9;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+    }
+
+    #worldsRobotHeading {
+        padding: 0vw;
+        padding-top: 0.9vw;
+        padding-bottom: 2vw;
+        height: 5.8vw;
+        font-weight: 700;
+        font-size: 100%;
+        color: rgb(255, 255, 255);
+        text-shadow: 0.2vw 0.2vw rgb(0, 0, 0);
+    }
+
+    
+    #linkToRobotPage:hover {
+        background-position: -100% 0;
+        /* font-weight: 600; */
+        color: black;
+    }
+    
+    #worldsRecap {
+        height: 50vw;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #worldsRow{
+        padding-bottom: 1rem;
+    }
+
+    #MissionBlock{
+        width: 100%;
+    }
+
+    #MissionHomeBlock{
+        flex-direction: column;
+    }
+
+    #OurMission {
+        text-align: center;
+        font-size: 2.2vw;
+        padding-top: 0.5vw;
+        padding-bottom: 1vw;
+        font-weight: 500;
+        margin: 0;
+        color: white;
+        text-shadow: 0.4vw 0.4vw 0.1vw rgb(0, 0, 0);
+        text-align: left;
+        padding-left: 0.1vw;
+        width: 95%
+    }
+
+    #OurMissionHeading {
+        text-align: left;
+        font-size: 120%;
+    }
+
+    #notJustARobot {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vw;
+        height: 50vw;
+        width: 90vw;    
+    }
+    
+
+}

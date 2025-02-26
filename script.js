@@ -27,6 +27,8 @@ $("#aboutUsTab").click(function () {
     $("#Outreach").css({ "display": "none" });
     $("#Sponsorships").css({ "display": "none" });
     $("#PastBots").css({ "display": "none" });
+    $("#centerTabs").toggleClass("test2");
+
 
 });
 
@@ -37,6 +39,8 @@ $("#homeTab").click(function () {
     $("#Outreach").css({ "display": "none" });
     $("#Sponsorships").css({ "display": "none" });
     $("#PastBots").css({ "display": "none" });
+    $("#centerTabs").toggleClass("test2");
+
 
 });
 
@@ -47,6 +51,8 @@ $("#outreachTab").click(function () {
     $("#Outreach").css({ "display": "block" });
     $("#Sponsorships").css({ "display": "none" });
     $("#PastBots").css({ "display": "none" });
+    $("#centerTabs").toggleClass("test2");
+
 
 });
 
@@ -57,6 +63,8 @@ $("#sponsorshipsTab").click(function () {
     $("#Outreach").css({ "display": "none" });
     $("#Sponsorships").css({ "display": "block" });
     $("#PastBots").css({ "display": "none" });
+    $("#centerTabs").toggleClass("test2");
+
 
 });
 
@@ -67,12 +75,26 @@ $("#pastRobotsTab").click(function () {
     $("#Outreach").css({ "display": "none" });
     $("#Sponsorships").css({ "display": "none" });
     $("#PastBots").css({ "display": "block" });
+    $("#centerTabs").toggleClass("test2");
+
 
 });
 
 $("#button").click(function () {
 
-    $("#navButtons").toggleClass("test2");
+    $("#centerTabs").toggleClass("test2");
 
 });
+
+$("#linkToRobotPage").click(function () {
+
+    $("#Home").css({ "display": "none" });
+    $("#AboutUs").css({ "display": "none" });
+    $("#Outreach").css({ "display": "none" });
+    $("#Sponsorships").css({ "display": "none" });
+    $("#PastBots").css({ "display": "block" });
+
+});
+
+
 
